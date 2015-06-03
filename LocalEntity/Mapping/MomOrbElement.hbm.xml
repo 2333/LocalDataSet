@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LocalEntity" namespace="LocalEntity.Entities">
+  <class name="MomOrbElement" table="MomOrbElement">
+		<id name="GSBH" column="GSBH" type="int" unsaved-value="0">
+      			      			
+      	</id>      		
+		<property name="WXDH" column="WXDH" type="string"  />
+		<property name="LYSJ" column="LYSJ" type="string"  />
+		<property name="BCZ" column="BCZ" type="decimal"  />
+		<property name="QJ" column="QJ" type="decimal"  />
+		<property name="PXL" column="PXL" type="decimal"  />
+		<property name="JDDFJ" column="JDDFJ" type="decimal"  />
+		<property name="PJDJ" column="PJDJ" type="decimal"  />
+		<property name="SJDCJ" column="SJDCJ" type="decimal"  />
+		<property name="DQZNXS" column="DQZNXS" type="decimal"  />
+		<property name="GYFSXS" column="GYFSXS" type="decimal"  />
+		<property name="YLXS" column="YLXS" type="decimal"  />
+		<property name="SJLY" column="SJLY" type="string"  />
+		<property name="SJXT" column="SJXT" type="string"  />
+		<property name="CKZBX" column="CKZBX" type="string"  />
+		<property name="ZBXYD" column="ZBXYD" type="string"  />
+		<property name="RKSJ" column="RKSJ" type="string"  />
+				
+	</class>
+</hibernate-mapping>

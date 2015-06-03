@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2DC8B8D6-F8F6-42CB-A051-C5844F4B64F9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QueryProxy</RootNamespace>
+    <AssemblyName>QueryProxy</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common">
+      <HintPath>..\Lib\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\DingBiaoManage\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\OrbitQueryService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\PlanManage\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\PointTargetManage\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\T2T_RManage\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\TaskManage\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\DataSources\Common.CoverageInfo.datasource" />
+    <None Include="Properties\DataSources\Common.ObservationInfoGrid.datasource" />
+    <None Include="Properties\DataSources\Common.SkyMark.datasource" />
+    <None Include="Service References\DingBiaoManage\DingBiaoManage.wsdl" />
+    <None Include="Service References\DingBiaoManage\metadata.wsdl" />
+    <None Include="Service References\DingBiaoManage\metadata.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\DingBiaoManage\metadata1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\DingBiaoManage\metadata2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\DingBiaoManage\QueryProxy.DingBiaoManage.DZY_GGFW_DAMPEDINGBIAOTASK.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\metadata.wsdl" />
+    <None Include="Service References\OrbitQueryService\metadata.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\OrbitQueryService\metadata1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\OrbitQueryService\metadata2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\OrbitQueryService\metadata3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\OrbitQueryService\metadata4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\OrbitQueryService\metadata5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\OrbitQueryService\metadata6.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\OrbitQueryService\metadata61.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\OrbitQueryService\metadata62.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\OrbitQueryService\metadata63.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryProxy.OrbitQueryService.DMZWithTX.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryProxy.OrbitQueryService.DZY_GGFW_DMZXX.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryProxy.OrbitQueryService.DZY_GGFW_HXMTDQGCRW.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryProxy.OrbitQueryService.DZY_GGFW_HXMTDQKXGCJH.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryProxy.OrbitQueryService.DZY_GGFW_HXMTGCY.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryProxy.OrbitQueryService.DZY_GGFW_HXMTMBGCXX.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryProxy.OrbitQueryService.DZY_GGFW_HXMTRW.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryProxy.OrbitQueryService.DZY_GGFW_HXMTRWGDGCSJ.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryProxy.OrbitQueryService.DZY_GGFW_HXMTSAASD.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryProxy.OrbitQueryService.DZY_GGFW_HXMTSCJH.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryProxy.OrbitQueryService.DZY_GGFW_HXMTSCJHHFMS.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryProxy.OrbitQueryService.DZY_GGFW_HXMTSCJHTSQK.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryProxy.OrbitQueryService.DZY_GGFW_HXMTZCQGCRW.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryProxy.OrbitQueryService.DZY_GGFW_HXMTZCQKXGCJH.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryProxy.OrbitQueryService.DZY_GGFW_WXGDQCXX1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryProxy.OrbitQueryService.DZY_GGFW_YXZHXX.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryProxy.OrbitQueryService.OrbitalElemet.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\OrbitQueryService\QueryService_online.wsdl" />
+    <None Include="Service References\PlanManage\metadata.wsdl" />
+    <None Include="Service References\PlanManage\metadata.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PlanManage\metadata1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PlanManage\metadata2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PlanManage\metadata3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PlanManage\PlanManage.wsdl" />
+    <None Include="Service References\PlanManage\QueryProxy.PlanManage.DZY_GGFW_DAMPEPLAN.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PointTargetManage\metadata.wsdl" />
+    <None Include="Service References\PointTargetManage\metadata.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PointTargetManage\metadata1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PointTargetManage\metadata2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PointTargetManage\PointTaskManage.wsdl" />
+    <None Include="Service References\PointTargetManage\QueryProxy.PointTargetManage.DZY_GGFW_DAMPEPOINTTARGET.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PointTargetManage\QueryProxy.PointTargetManage.DZY_GGFW_DAMPETask.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\T2T_RManage\metadata.wsdl" />
+    <None Include="Service References\T2T_RManage\metadata.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\T2T_RManage\metadata1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\T2T_RManage\metadata2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\T2T_RManage\metadata3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\T2T_RManage\TaskTarget_RManage.wsdl" />
+    <None Include="Service References\TaskManage\metadata.wsdl" />
+    <None Include="Service References\TaskManage\metadata.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TaskManage\metadata1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TaskManage\metadata2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TaskManage\QueryProxy.TaskManage.DZY_GGFW_DAMPETask.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TaskManage\TaskManage.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\DingBiaoManage\" />
+    <WCFMetadataStorage Include="Service References\OrbitQueryService\" />
+    <WCFMetadataStorage Include="Service References\PlanManage\" />
+    <WCFMetadataStorage Include="Service References\PointTargetManage\" />
+    <WCFMetadataStorage Include="Service References\T2T_RManage\" />
+    <WCFMetadataStorage Include="Service References\TaskManage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\PointTargetManage\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\PointTargetManage\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\PointTargetManage\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TaskManage\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TaskManage\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TaskManage\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\PlanManage\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\PlanManage\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\PlanManage\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\DingBiaoManage\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\DingBiaoManage\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\DingBiaoManage\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\T2T_RManage\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\T2T_RManage\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\T2T_RManage\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\OrbitQueryService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\OrbitQueryService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\OrbitQueryService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

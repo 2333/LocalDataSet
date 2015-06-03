@@ -1,0 +1,21 @@
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\LocalEntity\bin\Debug\LocalEntity.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\LocalEntity\bin\Debug\LocalEntity.pdb
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\LocalEntity\obj\Debug\LocalEntity.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\LocalEntity\obj\Debug\LocalEntity.pdb
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\LocalEntity\bin\Debug\Iesi.Collections.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\LocalEntity\bin\Debug\NHibernate.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\LocalEntity\obj\Debug\LocalEntity.csprojResolveAssemblyReference.cache
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\LocalEntity\bin\Debug\LocalEntity.dll
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\LocalEntity\bin\Debug\LocalEntity.pdb
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\LocalEntity\bin\Debug\Iesi.Collections.dll
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\LocalEntity\bin\Debug\NHibernate.dll
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\LocalEntity\obj\Debug\LocalEntity.csprojResolveAssemblyReference.cache
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\LocalEntity\obj\Debug\LocalEntity.dll
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\LocalEntity\obj\Debug\LocalEntity.pdb
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\LocalEntity\bin\Debug\LocalEntity.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\LocalEntity\bin\Debug\LocalEntity.pdb
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\LocalEntity\bin\Debug\Iesi.Collections.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\LocalEntity\bin\Debug\NHibernate.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\LocalEntity\obj\Debug\LocalEntity.csprojResolveAssemblyReference.cache
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\LocalEntity\obj\Debug\LocalEntity.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\LocalEntity\obj\Debug\LocalEntity.pdb

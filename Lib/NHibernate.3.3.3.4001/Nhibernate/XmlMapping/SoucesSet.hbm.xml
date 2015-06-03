@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LocalDataSet" namespace="LocalDataSet">
+	<class name="LocalDataSet.Entity.SoucesSet, LocalDataSet" table="SoucesSet">
+		<id name="ID" column="ID" type="int" unsaved-value="0">
+      			<generator class="native" />       			
+      	</id>      		
+		<property name="Name" column="Name" type="string"  />
+		<property name="CJ" column="CJ" type="decimal"  />
+		<property name="CW" column="CW" type="decimal"  />
+				
+	</class>
+</hibernate-mapping>

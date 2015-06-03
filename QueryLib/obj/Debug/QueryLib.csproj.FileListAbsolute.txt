@@ -1,0 +1,20 @@
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\QueryLib\bin\Debug\QueryLib.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\QueryLib\bin\Debug\QueryLib.pdb
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\QueryLib\obj\Debug\QueryLib.csprojResolveAssemblyReference.cache
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\QueryLib\obj\Debug\QueryLib.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\QueryLib\obj\Debug\QueryLib.pdb
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryLib\obj\Debug\QueryLib.csprojResolveAssemblyReference.cache
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryLib\obj\Debug\QueryLib.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryLib\obj\Debug\QueryLib.pdb
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryLib\bin\Debug\QueryLib.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryLib\bin\Debug\QueryLib.pdb
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryLib\bin\Debug\LocalDAL.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryLib\bin\Debug\LocalEntity.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryLib\bin\Debug\QueryProxy.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryLib\bin\Debug\NHibernate.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryLib\bin\Debug\log4net.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryLib\bin\Debug\Iesi.Collections.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryLib\bin\Debug\LocalDAL.pdb
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryLib\bin\Debug\LocalEntity.pdb
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryLib\bin\Debug\QueryProxy.pdb
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryLib\bin\Debug\QueryLib.dll.config

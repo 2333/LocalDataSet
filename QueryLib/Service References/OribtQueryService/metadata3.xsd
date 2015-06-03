@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/CommonService.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/CommonService.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="DZY_GGFW_DMZXX">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BSDD" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DLJD" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="DLWD" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="DMZDH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DMZLX" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GC" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RKSJ" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_DMZXX" nillable="true" type="tns:DZY_GGFW_DMZXX" />
+  <xs:complexType name="ArrayOfDZY_GGFW_DMZXX">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DZY_GGFW_DMZXX" nillable="true" type="tns:DZY_GGFW_DMZXX" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDZY_GGFW_DMZXX" nillable="true" type="tns:ArrayOfDZY_GGFW_DMZXX" />
+  <xs:complexType name="ArrayOfDZY_GGFW_DMZJSTX">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DZY_GGFW_DMZJSTX" nillable="true" type="tns:DZY_GGFW_DMZJSTX" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDZY_GGFW_DMZJSTX" nillable="true" type="tns:ArrayOfDZY_GGFW_DMZJSTX" />
+  <xs:complexType name="DZY_GGFW_DMZJSTX">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BBSKD" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="DMZDH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JSBD" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RKSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RWQHSJ" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TXBH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TXLSH" type="xs:decimal" />
+      <xs:element minOccurs="0" name="XBDZXGZYJ" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="XBDZXJSYJ" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZDJSSL" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZT" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_DMZJSTX" nillable="true" type="tns:DZY_GGFW_DMZJSTX" />
+  <xs:complexType name="ArrayOfDZY_GGFW_YXZHXX">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DZY_GGFW_YXZHXX" nillable="true" type="tns:DZY_GGFW_YXZHXX" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDZY_GGFW_YXZHXX" nillable="true" type="tns:ArrayOfDZY_GGFW_YXZHXX" />
+  <xs:complexType name="DZY_GGFW_YXZHXX">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AZWZX" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AZWZY" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AZWZZ" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AZXW" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AZZXX" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AZZXY" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AZZXZ" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CZSCJ" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PXSCJ" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RKSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SCXZ" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="WXDH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="YXZHDH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="YXZHLSH" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZHMC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZT" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_YXZHXX" nillable="true" type="tns:DZY_GGFW_YXZHXX" />
+  <xs:complexType name="ArrayOfDZY_GGFW_HXMTZCQGCRW">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DZY_GGFW_HXMTZCQGCRW" nillable="true" type="tns:DZY_GGFW_HXMTZCQGCRW" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDZY_GGFW_HXMTZCQGCRW" nillable="true" type="tns:ArrayOfDZY_GGFW_HXMTZCQGCRW" />
+  <xs:complexType name="DZY_GGFW_HXMTZCQGCRW">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BZ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GCH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GCJG" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GCMS" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GCSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="GCYBH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GCZS" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GDGCSJ" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="JHBH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PI" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RKSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RWH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SMJG" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SMSL" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="YXGCSJ" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_HXMTZCQGCRW" nillable="true" type="tns:DZY_GGFW_HXMTZCQGCRW" />
+  <xs:complexType name="DZY_GGFW_HXMTDQKXGCJH">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BZ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CXZT" type="xs:decimal" />
+      <xs:element minOccurs="0" name="FZJGDZ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JHBH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JHDZ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JHLX" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JHSCSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="JSSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="KSSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RKSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SFTGFZ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WXSMZS" type="xs:decimal" />
+      <xs:element minOccurs="0" name="XML" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="YWZT" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZDRY" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_HXMTDQKXGCJH" nillable="true" type="tns:DZY_GGFW_HXMTDQKXGCJH" />
+  <xs:complexType name="DZY_GGFW_HXMTZCQKXGCJH">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BZ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CXZT" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="FZJGDZ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JHBH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JHDZ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JHLX" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JHSCSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="JSSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="KSSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RKSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SFTGFZ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="XML" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="YWZT" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZDRY" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_HXMTZCQKXGCJH" nillable="true" type="tns:DZY_GGFW_HXMTZCQKXGCJH" />
+  <xs:complexType name="ArrayOfDZY_GGFW_HXMTDQKXGCJH">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DZY_GGFW_HXMTDQKXGCJH" nillable="true" type="tns:DZY_GGFW_HXMTDQKXGCJH" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDZY_GGFW_HXMTDQKXGCJH" nillable="true" type="tns:ArrayOfDZY_GGFW_HXMTDQKXGCJH" />
+  <xs:complexType name="ArrayOfDZY_GGFW_HXMTZCQKXGCJH">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DZY_GGFW_HXMTZCQKXGCJH" nillable="true" type="tns:DZY_GGFW_HXMTZCQKXGCJH" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDZY_GGFW_HXMTZCQKXGCJH" nillable="true" type="tns:ArrayOfDZY_GGFW_HXMTZCQKXGCJH" />
+  <xs:complexType name="ArrayOfDZY_GGFW_HXMTDQGCRW">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DZY_GGFW_HXMTDQGCRW" nillable="true" type="tns:DZY_GGFW_HXMTDQGCRW" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDZY_GGFW_HXMTDQGCRW" nillable="true" type="tns:ArrayOfDZY_GGFW_HXMTDQGCRW" />
+  <xs:complexType name="DZY_GGFW_HXMTDQGCRW">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BZ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GCH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GCJSSJ" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="GCKSSJ" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="GCMS" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GCYBH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JHBH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="KZFS" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="LJ" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RKSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SFPZGC" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SFQX" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SMJG" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SMSL" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="XZQ0" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="XZQ1" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="XZQ2" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="XZQ3" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_HXMTDQGCRW" nillable="true" type="tns:DZY_GGFW_HXMTDQGCRW" />
+  <xs:complexType name="DZY_GGFW_HXMTGCY">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CJ" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CW" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GCMS" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GCYBH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RKSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SMBJ" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_HXMTGCY" nillable="true" type="tns:DZY_GGFW_HXMTGCY" />
+  <xs:complexType name="ArrayOfDZY_GGFW_HXMTSCJH">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DZY_GGFW_HXMTSCJH" nillable="true" type="tns:DZY_GGFW_HXMTSCJH" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDZY_GGFW_HXMTSCJH" nillable="true" type="tns:ArrayOfDZY_GGFW_HXMTSCJH" />
+  <xs:complexType name="DZY_GGFW_HXMTSCJH">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DMZDH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HFMS" type="xs:decimal" />
+      <xs:element minOccurs="0" name="JHBH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JSJSSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="JSKSSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RKSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SCJHLSH" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SCMSL" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SFTSQK" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_HXMTSCJH" nillable="true" type="tns:DZY_GGFW_HXMTSCJH" />
+  <xs:complexType name="ArrayOfDZY_GGFW_HXMTSAASD">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DZY_GGFW_HXMTSAASD" nillable="true" type="tns:DZY_GGFW_HXMTSAASD" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDZY_GGFW_HXMTSAASD" nillable="true" type="tns:ArrayOfDZY_GGFW_HXMTSAASD" />
+  <xs:complexType name="DZY_GGFW_HXMTSAASD">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="JHBH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JSSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="KSSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RKSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SDXH" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_HXMTSAASD" nillable="true" type="tns:DZY_GGFW_HXMTSAASD" />
+  <xs:complexType name="ArrayOfDZY_GGFW_HXMTSCJHHFMS">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DZY_GGFW_HXMTSCJHHFMS" nillable="true" type="tns:DZY_GGFW_HXMTSCJHHFMS" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDZY_GGFW_HXMTSCJHHFMS" nillable="true" type="tns:ArrayOfDZY_GGFW_HXMTSCJHHFMS" />
+  <xs:complexType name="DZY_GGFW_HXMTSCJHHFMS">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FQH" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="HFLSH" type="xs:decimal" />
+      <xs:element minOccurs="0" name="HFLX" type="xs:decimal" />
+      <xs:element minOccurs="0" name="JSDZ" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="JSSJ" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="KSDZ" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="KSSJ" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RKSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SCJHLSH" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SFGXDD" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_HXMTSCJHHFMS" nillable="true" type="tns:DZY_GGFW_HXMTSCJHHFMS" />
+  <xs:complexType name="ArrayOfDZY_GGFW_HXMTSCJHTSQK">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DZY_GGFW_HXMTSCJHTSQK" nillable="true" type="tns:DZY_GGFW_HXMTSCJHTSQK" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDZY_GGFW_HXMTSCJHTSQK" nillable="true" type="tns:ArrayOfDZY_GGFW_HXMTSCJHTSQK" />
+  <xs:complexType name="DZY_GGFW_HXMTSCJHTSQK">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DBTX" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JSSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="KJSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RKSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SCJHLSH" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TSQKLSH" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_HXMTSCJHTSQK" nillable="true" type="tns:DZY_GGFW_HXMTSCJHTSQK" />
+  <xs:complexType name="DZY_GGFW_HXMTRW">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BZ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CJ" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CW" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="DNGZLL" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GCCS" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GCMS" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GDGCSJ" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GNGZLL" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="JCGC" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MBNDSX" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MBNDXX" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RKSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RWH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SMBJ" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SMHJJ" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SMJSD" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TADJ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TAH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TAR" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TAZTFL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TOOGC" type="xs:decimal" />
+      <xs:element minOccurs="0" name="XWYLGC" type="xs:decimal" />
+      <xs:element minOccurs="0" name="YMC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="YXGCSJ" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZDSJJG" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZDXW" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZNGZLL" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZQ" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZQLY" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZXSJJG" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZXXW" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_HXMTRW" nillable="true" type="tns:DZY_GGFW_HXMTRW" />
+  <xs:complexType name="ArrayOfDZY_GGFW_HXMTRW">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DZY_GGFW_HXMTRW" nillable="true" type="tns:DZY_GGFW_HXMTRW" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDZY_GGFW_HXMTRW" nillable="true" type="tns:ArrayOfDZY_GGFW_HXMTRW" />
+  <xs:complexType name="ArrayOfDZY_GGFW_HXMTRWGDGCSJ">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DZY_GGFW_HXMTRWGDGCSJ" nillable="true" type="tns:DZY_GGFW_HXMTRWGDGCSJ" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDZY_GGFW_HXMTRWGDGCSJ" nillable="true" type="tns:ArrayOfDZY_GGFW_HXMTRWGDGCSJ" />
+  <xs:complexType name="DZY_GGFW_HXMTRWGDGCSJ">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GCSJXH" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GDJSSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="GDKSSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RKSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RWH" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_HXMTRWGDGCSJ" nillable="true" type="tns:DZY_GGFW_HXMTRWGDGCSJ" />
+  <xs:complexType name="ArrayOfDZY_GGFW_HXMTMBGCXX">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DZY_GGFW_HXMTMBGCXX" nillable="true" type="tns:DZY_GGFW_HXMTMBGCXX" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDZY_GGFW_HXMTMBGCXX" nillable="true" type="tns:ArrayOfDZY_GGFW_HXMTMBGCXX" />
+  <xs:complexType name="DZY_GGFW_HXMTMBGCXX">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GCH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GCSC" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GCYBH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JHBH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JSSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="KSSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="MBGCLSH" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RKSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TQBH" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZXH" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZXZT" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_HXMTMBGCXX" nillable="true" type="tns:DZY_GGFW_HXMTMBGCXX" />
+  <xs:complexType name="ArrayOfDZY_GGFW_WXGDQCXX">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DZY_GGFW_WXGDQCXX" nillable="true" type="tns:DZY_GGFW_WXGDQCXX" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDZY_GGFW_WXGDQCXX" nillable="true" type="tns:ArrayOfDZY_GGFW_WXGDQCXX" />
+  <xs:complexType name="DZY_GGFW_WXGDQCXX">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GDQH" type="xs:decimal" />
+      <xs:element minOccurs="0" name="JSSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="KSSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RKSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="WXDH" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_WXGDQCXX" nillable="true" type="tns:DZY_GGFW_WXGDQCXX" />
+</xs:schema>

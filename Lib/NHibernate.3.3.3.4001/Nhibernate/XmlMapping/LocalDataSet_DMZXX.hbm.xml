@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LocalDataSet" namespace="LocalDataSet">
+	<class name="LocalDataSet.Entity.LocalDataSet_DMZXX, LocalDataSet" table="LocalDataSet_DMZXX">
+		<id name="DMZDH" column="DMZDH" type="string" unsaved-value="0">
+      			      			
+      	</id>      		
+		<property name="DLJD" column="DLJD" type="decimal"  />
+		<property name="DLWD" column="DLWD" type="decimal"  />
+		<property name="GD" column="GD" type="decimal"  />
+		<property name="BSDD" column="BSDD" type="string"  />
+		<property name="DMZLX" column="DMZLX" type="string"  />
+		<property name="RKSJ" column="RKSJ" type="string"  />
+				
+	</class>
+</hibernate-mapping>

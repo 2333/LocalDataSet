@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://www.artech.com" elementFormDefault="qualified" targetNamespace="http://www.artech.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:18010/PointTaskManage/metadata?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://localhost:18010/PointTaskManage/metadata?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/CommonService.Model" />
+  <xs:element name="savePointTask">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="targetcode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="longtitude" type="xs:double" />
+        <xs:element minOccurs="0" name="latitude" type="xs:double" />
+        <xs:element minOccurs="0" name="priority" type="xs:int" />
+        <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/" minOccurs="0" name="DetectTime" type="q1:duration" />
+        <xs:element minOccurs="0" name="maxangle" type="xs:float" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="savePointTaskResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePointTask">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tartgetcode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePointTaskResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="queryPointTask">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="queryPointTaskResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/CommonService.Model" minOccurs="0" name="queryPointTaskResult" nillable="true" type="q2:ArrayOfDZY_GGFW_DAMPEPOINTTARGET" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="queryLastItem_ID">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="queryLastItem_IDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="queryLastItem_IDResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="updatePoint">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/CommonService.Model" minOccurs="0" name="point" nillable="true" type="q3:DZY_GGFW_DAMPEPOINTTARGET" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="updatePointResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="queryTask">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="starttime" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="endtime" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="queryTaskResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/CommonService.Model" minOccurs="0" name="queryTaskResult" nillable="true" type="q4:ArrayOfDZY_GGFW_DAMPETask" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

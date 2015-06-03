@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.artech.com" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.artech.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.artech.com/Imports">
+      <xsd:import schemaLocation="http://localhost:18010/PointTaskManage/metadata?xsd=xsd0" namespace="http://www.artech.com" />
+      <xsd:import schemaLocation="http://localhost:18010/PointTaskManage/metadata?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:18010/PointTaskManage/metadata?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/CommonService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="PointTaskManage_savePointTask_InputMessage">
+    <wsdl:part name="parameters" element="tns:savePointTask" />
+  </wsdl:message>
+  <wsdl:message name="PointTaskManage_savePointTask_OutputMessage">
+    <wsdl:part name="parameters" element="tns:savePointTaskResponse" />
+  </wsdl:message>
+  <wsdl:message name="PointTaskManage_deletePointTask_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePointTask" />
+  </wsdl:message>
+  <wsdl:message name="PointTaskManage_deletePointTask_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePointTaskResponse" />
+  </wsdl:message>
+  <wsdl:message name="PointTaskManage_queryPointTask_InputMessage">
+    <wsdl:part name="parameters" element="tns:queryPointTask" />
+  </wsdl:message>
+  <wsdl:message name="PointTaskManage_queryPointTask_OutputMessage">
+    <wsdl:part name="parameters" element="tns:queryPointTaskResponse" />
+  </wsdl:message>
+  <wsdl:message name="PointTaskManage_queryLastItem_ID_InputMessage">
+    <wsdl:part name="parameters" element="tns:queryLastItem_ID" />
+  </wsdl:message>
+  <wsdl:message name="PointTaskManage_queryLastItem_ID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:queryLastItem_IDResponse" />
+  </wsdl:message>
+  <wsdl:message name="PointTaskManage_updatePoint_InputMessage">
+    <wsdl:part name="parameters" element="tns:updatePoint" />
+  </wsdl:message>
+  <wsdl:message name="PointTaskManage_updatePoint_OutputMessage">
+    <wsdl:part name="parameters" element="tns:updatePointResponse" />
+  </wsdl:message>
+  <wsdl:message name="PointTaskManage_queryTask_InputMessage">
+    <wsdl:part name="parameters" element="tns:queryTask" />
+  </wsdl:message>
+  <wsdl:message name="PointTaskManage_queryTask_OutputMessage">
+    <wsdl:part name="parameters" element="tns:queryTaskResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PointTaskManage">
+    <wsdl:operation name="savePointTask">
+      <wsdl:input wsaw:Action="http://www.artech.com/PointTaskManage/savePointTask" message="tns:PointTaskManage_savePointTask_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/PointTaskManage/savePointTaskResponse" message="tns:PointTaskManage_savePointTask_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePointTask">
+      <wsdl:input wsaw:Action="http://www.artech.com/PointTaskManage/deletePointTask" message="tns:PointTaskManage_deletePointTask_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/PointTaskManage/deletePointTaskResponse" message="tns:PointTaskManage_deletePointTask_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="queryPointTask">
+      <wsdl:input wsaw:Action="http://www.artech.com/PointTaskManage/queryPointTask" message="tns:PointTaskManage_queryPointTask_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/PointTaskManage/queryPointTaskResponse" message="tns:PointTaskManage_queryPointTask_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="queryLastItem_ID">
+      <wsdl:input wsaw:Action="http://www.artech.com/PointTaskManage/queryLastItem_ID" message="tns:PointTaskManage_queryLastItem_ID_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/PointTaskManage/queryLastItem_IDResponse" message="tns:PointTaskManage_queryLastItem_ID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="updatePoint">
+      <wsdl:input wsaw:Action="http://www.artech.com/PointTaskManage/updatePoint" message="tns:PointTaskManage_updatePoint_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/PointTaskManage/updatePointResponse" message="tns:PointTaskManage_updatePoint_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="queryTask">
+      <wsdl:input wsaw:Action="http://www.artech.com/PointTaskManage/queryTask" message="tns:PointTaskManage_queryTask_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/PointTaskManage/queryTaskResponse" message="tns:PointTaskManage_queryTask_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

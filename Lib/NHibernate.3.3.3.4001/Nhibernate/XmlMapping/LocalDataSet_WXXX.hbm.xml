@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LocalDataSet" namespace="LocalDataSet">
+	<class name="LocalDataSet.Entity.LocalDataSet_WXXX, LocalDataSet" table="LocalDataSet_WXXX">
+		<id name="WXDH" column="WXDH" type="string" unsaved-value="0">
+      			      			
+      	</id>      		
+		<property name="KXRWLSH" column="KXRWLSH" type="string"  />
+		<property name="WXMC" column="WXMC" type="string"  />
+		<property name="WXYT" column="WXYT" type="string"  />
+		<property name="GDLX" column="GDLX" type="string"  />
+		<property name="GDJDNL" column="GDJDNL" type="string"  />
+		<property name="GDZTJDNL" column="GDZTJDNL" type="string"  />
+		<property name="FYZTJDNL" column="FYZTJDNL" type="string"  />
+		<property name="PHZTJDNL" column="PHZTJDNL" type="string"  />
+		<property name="ZYYH" column="ZYYH" type="string"  />
+		<property name="FSSJ" column="FSSJ" type="string"  />
+		<property name="WXSJSM" column="WXSJSM" type="string"  />
+		<property name="WXLX" column="WXLX" type="string"  />
+		<property name="RKSJ" column="RKSJ" type="string"  />
+				
+	</class>
+</hibernate-mapping>

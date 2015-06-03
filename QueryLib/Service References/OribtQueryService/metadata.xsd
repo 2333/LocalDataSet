@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/CommonService.Contract" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/CommonService.Contract" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:18009/QueryService_online/metadata?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/CommonService.Model" />
+  <xs:complexType name="DMZWithTX">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/CommonService.Model" minOccurs="0" name="Dmztxlist" nillable="true" type="q1:ArrayOfDZY_GGFW_DMZJSTX" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/CommonService.Model" minOccurs="0" name="Dmzxx" nillable="true" type="q2:DZY_GGFW_DMZXX" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DMZWithTX" nillable="true" type="tns:DMZWithTX" />
+  <xs:complexType name="ArrayOfDMZWithTX">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DMZWithTX" nillable="true" type="tns:DMZWithTX" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDMZWithTX" nillable="true" type="tns:ArrayOfDMZWithTX" />
+  <xs:complexType name="OrbitalElemet">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BCZ" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CKZBX" type="xs:decimal" />
+      <xs:element minOccurs="0" name="DQZNXS" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GDQH" type="xs:int" />
+      <xs:element minOccurs="0" name="GSBH" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GYFSXS" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="JDDFJ" type="xs:decimal" />
+      <xs:element minOccurs="0" name="LYSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PJDJ" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PXL" type="xs:decimal" />
+      <xs:element minOccurs="0" name="QJ" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RKSJ" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SJDCJ" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SJLY" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SJXT" type="xs:decimal" />
+      <xs:element minOccurs="0" name="WXDH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="YLXS" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ZBXYD" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OrbitalElemet" nillable="true" type="tns:OrbitalElemet" />
+  <xs:complexType name="ArrayOfOrbitalElemet">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OrbitalElemet" nillable="true" type="tns:OrbitalElemet" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOrbitalElemet" nillable="true" type="tns:ArrayOfOrbitalElemet" />
+</xs:schema>

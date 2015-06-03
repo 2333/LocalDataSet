@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LocalEntity" namespace="LocalEntity.Entities">
+	<class name="SkyMark" table="SkyMark">
+		<id name="ID" column="ID" type="int" unsaved-value="0">
+      			      			
+      	</id>      		
+		<property name="Name" column="Name" type="string"  />
+		<property name="Cotlog" column="Cotlog" type="string"  />
+		<property name="Dec" column="Dec" type="decimal"  />
+		<property name="Ra" column="Ra" type="decimal"  />
+		<property name="Remark" column="Remark" type="string"  />
+		<property name="SaveTime" column="SaveTime" type="DateTime"  />
+    <property name="Brush" column="Brush" type="string"/>	
+	</class>
+</hibernate-mapping>

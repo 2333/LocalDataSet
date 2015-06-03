@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="16120054-8f81-4728-b327-d1ca2cf7ec0e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:18010/PointTaskManage/metadata" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="metadata.xsd" MetadataType="Schema" ID="d6ded95a-577d-4a74-b69f-f6f4d4214e16" SourceId="1" SourceUrl="http://localhost:18010/PointTaskManage/metadata?xsd=xsd1" />
+    <MetadataFile FileName="metadata1.xsd" MetadataType="Schema" ID="19867840-9f12-48ae-81e1-f6cf5ddff213" SourceId="1" SourceUrl="http://localhost:18010/PointTaskManage/metadata?xsd=xsd2" />
+    <MetadataFile FileName="metadata2.xsd" MetadataType="Schema" ID="6b7ef429-060d-4cc2-8de4-0e29c5a9b271" SourceId="1" SourceUrl="http://localhost:18010/PointTaskManage/metadata?xsd=xsd0" />
+    <MetadataFile FileName="metadata.wsdl" MetadataType="Wsdl" ID="7a587000-d5a2-4c05-8e47-0cea6260ad5c" SourceId="1" SourceUrl="http://localhost:18010/PointTaskManage/metadata?wsdl=wsdl0" />
+    <MetadataFile FileName="PointTaskManage.wsdl" MetadataType="Wsdl" ID="451506cc-0fc6-456e-9124-def8851eb956" SourceId="1" SourceUrl="http://localhost:18010/PointTaskManage/metadata" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

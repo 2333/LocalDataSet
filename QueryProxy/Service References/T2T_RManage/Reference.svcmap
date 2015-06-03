@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d1bbfa91-ead2-45ef-a2c0-97d5b562f875" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:18013/TaskTarget_RManage/metadata" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="metadata.xsd" MetadataType="Schema" ID="066e27d3-8506-4196-9b9e-3f5554e8284f" SourceId="1" SourceUrl="http://localhost:18013/TaskTarget_RManage/metadata?xsd=xsd2" />
+    <MetadataFile FileName="metadata1.xsd" MetadataType="Schema" ID="9734b7d7-1c3e-4975-926a-a3eada080f21" SourceId="1" SourceUrl="http://localhost:18013/TaskTarget_RManage/metadata?xsd=xsd1" />
+    <MetadataFile FileName="TaskTarget_RManage.wsdl" MetadataType="Wsdl" ID="807996d3-ae3a-4a28-8a90-6ce51b617196" SourceId="1" SourceUrl="http://localhost:18013/TaskTarget_RManage/metadata" />
+    <MetadataFile FileName="metadata.wsdl" MetadataType="Wsdl" ID="67b82557-0bf2-4923-92ea-656021f636df" SourceId="1" SourceUrl="http://localhost:18013/TaskTarget_RManage/metadata?wsdl=wsdl0" />
+    <MetadataFile FileName="metadata2.xsd" MetadataType="Schema" ID="a448a72e-f9b8-4f89-b732-7f2e810561fe" SourceId="1" SourceUrl="http://localhost:18013/TaskTarget_RManage/metadata?xsd=xsd3" />
+    <MetadataFile FileName="metadata3.xsd" MetadataType="Schema" ID="74493b23-741f-4c9a-b5ef-ec8bea43cfb9" SourceId="1" SourceUrl="http://localhost:18013/TaskTarget_RManage/metadata?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

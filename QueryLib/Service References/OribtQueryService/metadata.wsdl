@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.artech.com" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.artech.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.artech.com/Imports">
+      <xsd:import schemaLocation="http://localhost:18009/QueryService_online/metadata?xsd=xsd0" namespace="http://www.artech.com" />
+      <xsd:import schemaLocation="http://localhost:18009/QueryService_online/metadata?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:18009/QueryService_online/metadata?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/CommonService.Model" />
+      <xsd:import schemaLocation="http://localhost:18009/QueryService_online/metadata?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/CommonService.Contract" />
+      <xsd:import schemaLocation="http://localhost:18009/QueryService_online/metadata?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:18009/QueryService_online/metadata?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/Common" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="QueryService_online_ConnectTest_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConnectTest" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_ConnectTest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConnectTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetDMZXX_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDMZXX" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetDMZXX_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDMZXXResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetAllDMZXX_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllDMZXX" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetAllDMZXX_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllDMZXXResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetDMZXXByDMZLX_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDMZXXByDMZLX" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetDMZXXByDMZLX_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDMZXXByDMZLXResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetDMZXXWithDMZJSTX_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDMZXXWithDMZJSTX" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetDMZXXWithDMZJSTX_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDMZXXWithDMZJSTXResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetAllDMZXXWithDMZJSTX_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllDMZXXWithDMZJSTX" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetAllDMZXXWithDMZJSTX_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllDMZXXWithDMZJSTXResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetDMZXXWithDMZJSTXByDMZLX_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDMZXXWithDMZJSTXByDMZLX" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetDMZXXWithDMZJSTXByDMZLX_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDMZXXWithDMZJSTXByDMZLXResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetYXZHXX_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetYXZHXX" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetYXZHXX_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetYXZHXXResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetHXMTZCQKXGCRW_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHXMTZCQKXGCRW" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetHXMTZCQKXGCRW_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHXMTZCQKXGCRWResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_LongTermPlanBHList_InputMessage">
+    <wsdl:part name="parameters" element="tns:LongTermPlanBHList" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_LongTermPlanBHList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LongTermPlanBHListResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_MidTremPlanBHList_InputMessage">
+    <wsdl:part name="parameters" element="tns:MidTremPlanBHList" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_MidTremPlanBHList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MidTremPlanBHListResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_ShortTremPlanBHList_InputMessage">
+    <wsdl:part name="parameters" element="tns:ShortTremPlanBHList" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_ShortTremPlanBHList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ShortTremPlanBHListResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_ShortTermPlan_InputMessage">
+    <wsdl:part name="parameters" element="tns:ShortTermPlan" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_ShortTermPlan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ShortTermPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_LongTermPlan_InputMessage">
+    <wsdl:part name="parameters" element="tns:LongTermPlan" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_LongTermPlan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LongTermPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetAllShortTermPlan_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllShortTermPlan" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetAllShortTermPlan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllShortTermPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetAllMiddleTermPlan_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllMiddleTermPlan" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetAllMiddleTermPlan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllMiddleTermPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetAllLongTermPlan_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllLongTermPlan" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetAllLongTermPlan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllLongTermPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetShortTasks_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetShortTasks" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetShortTasks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetShortTasksResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetLongTasks_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLongTasks" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetLongTasks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLongTasksResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetHXMTGCY_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHXMTGCY" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetHXMTGCY_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHXMTGCYResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetAllHXMTSCJH_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllHXMTSCJH" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetAllHXMTSCJH_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllHXMTSCJHResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetAllHXMTSAAD_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllHXMTSAAD" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetAllHXMTSAAD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllHXMTSAADResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetHXMTSCJHHFMS_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHXMTSCJHHFMS" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetHXMTSCJHHFMS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHXMTSCJHHFMSResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetHXMTSCJHTSQK_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHXMTSCJHTSQK" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetHXMTSCJHTSQK_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHXMTSCJHTSQKResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_AddHXMTRW_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddHXMTRW" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_AddHXMTRW_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddHXMTRWResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_UpdateHXMTRW_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateHXMTRW" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_UpdateHXMTRW_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateHXMTRWResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_DelHXMTRW_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelHXMTRW" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_DelHXMTRW_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelHXMTRWResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetHXMTRWByRWH_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHXMTRWByRWH" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetHXMTRWByRWH_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHXMTRWByRWHResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetHXMTRWBYTAH_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHXMTRWBYTAH" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetHXMTRWBYTAH_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHXMTRWBYTAHResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetAllHXMTRW_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllHXMTRW" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetAllHXMTRW_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllHXMTRWResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetGDGCSJ_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGDGCSJ" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetGDGCSJ_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGDGCSJResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_AddGDGCSJList_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddGDGCSJList" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_AddGDGCSJList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddGDGCSJListResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_AddGDGCCSJ_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddGDGCCSJ" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_AddGDGCCSJ_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddGDGCCSJResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_UpdateGDGSCJ_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGDGSCJ" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_UpdateGDGSCJ_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGDGSCJResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_DelGDGCSJByRWH_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelGDGCSJByRWH" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_DelGDGCSJByRWH_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelGDGCSJByRWHResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_DelGDGCSJByBH_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelGDGCSJByBH" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_DelGDGCSJByBH_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelGDGCSJByBHResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_AddSkyMark_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddSkyMark" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_AddSkyMark_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddSkyMarkResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_AddSkyMarks_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddSkyMarks" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_AddSkyMarks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddSkyMarksResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetSkyMarks_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSkyMarks" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetSkyMarks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSkyMarksResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetSkyMarkByName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSkyMarkByName" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetSkyMarkByName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSkyMarkByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetSkyMarkByCatlog_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSkyMarkByCatlog" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetSkyMarkByCatlog_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSkyMarkByCatlogResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_UpdateSkyMark_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSkyMark" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_UpdateSkyMark_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSkyMarkResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_DelSkyMark_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelSkyMark" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_DelSkyMark_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelSkyMarkResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_DelSkyMarks_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelSkyMarks" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_DelSkyMarks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelSkyMarksResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetGridInfoFromMonFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGridInfoFromMonFile" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetGridInfoFromMonFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGridInfoFromMonFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetGridInfoFromDayFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGridInfoFromDayFile" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetGridInfoFromDayFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGridInfoFromDayFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetCoverageInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCoverageInfo" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetCoverageInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCoverageInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetTargetsInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTargetsInfo" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetTargetsInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTargetsInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetTargetCoveragesInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTargetCoveragesInfo" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetTargetCoveragesInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTargetCoveragesInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_SaveTargetInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveTargetInfo" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_SaveTargetInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveTargetInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetLastestSSGDGS_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastestSSGDGS" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetLastestSSGDGS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastestSSGDGSResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetLastestSSGDGSByTime_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastestSSGDGSByTime" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetLastestSSGDGSByTime_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastestSSGDGSByTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetSSGDGS_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSSGDGS" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetSSGDGS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSSGDGSResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetLastestPJGDGS_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastestPJGDGS" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetLastestPJGDGS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastestPJGDGSResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetLastestPJGDGSByTime_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastestPJGDGSByTime" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetLastestPJGDGSByTime_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastestPJGDGSByTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetPJGDGS_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPJGDGS" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetPJGDGS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPJGDGSResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetOrbitalTimesInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOrbitalTimesInfo" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_GetOrbitalTimesInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOrbitalTimesInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_UpdateLocalObitalTimesInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLocalObitalTimesInfo" />
+  </wsdl:message>
+  <wsdl:message name="QueryService_online_UpdateLocalObitalTimesInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLocalObitalTimesInfoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="QueryService_online">
+    <wsdl:operation name="ConnectTest">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/ConnectTest" message="tns:QueryService_online_ConnectTest_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/ConnectTestResponse" message="tns:QueryService_online_ConnectTest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDMZXX">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetDMZXX" message="tns:QueryService_online_GetDMZXX_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetDMZXXResponse" message="tns:QueryService_online_GetDMZXX_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDMZXX">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetAllDMZXX" message="tns:QueryService_online_GetAllDMZXX_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetAllDMZXXResponse" message="tns:QueryService_online_GetAllDMZXX_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDMZXXByDMZLX">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetDMZXXByDMZLX" message="tns:QueryService_online_GetDMZXXByDMZLX_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetDMZXXByDMZLXResponse" message="tns:QueryService_online_GetDMZXXByDMZLX_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDMZXXWithDMZJSTX">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetDMZXXWithDMZJSTX" message="tns:QueryService_online_GetDMZXXWithDMZJSTX_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetDMZXXWithDMZJSTXResponse" message="tns:QueryService_online_GetDMZXXWithDMZJSTX_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDMZXXWithDMZJSTX">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetAllDMZXXWithDMZJSTX" message="tns:QueryService_online_GetAllDMZXXWithDMZJSTX_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetAllDMZXXWithDMZJSTXResponse" message="tns:QueryService_online_GetAllDMZXXWithDMZJSTX_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDMZXXWithDMZJSTXByDMZLX">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetDMZXXWithDMZJSTXByDMZLX" message="tns:QueryService_online_GetDMZXXWithDMZJSTXByDMZLX_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetDMZXXWithDMZJSTXByDMZLXResponse" message="tns:QueryService_online_GetDMZXXWithDMZJSTXByDMZLX_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetYXZHXX">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetYXZHXX" message="tns:QueryService_online_GetYXZHXX_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetYXZHXXResponse" message="tns:QueryService_online_GetYXZHXX_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHXMTZCQKXGCRW">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetHXMTZCQKXGCRW" message="tns:QueryService_online_GetHXMTZCQKXGCRW_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetHXMTZCQKXGCRWResponse" message="tns:QueryService_online_GetHXMTZCQKXGCRW_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LongTermPlanBHList">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/LongTermPlanBHList" message="tns:QueryService_online_LongTermPlanBHList_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/LongTermPlanBHListResponse" message="tns:QueryService_online_LongTermPlanBHList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MidTremPlanBHList">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/MidTremPlanBHList" message="tns:QueryService_online_MidTremPlanBHList_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/MidTremPlanBHListResponse" message="tns:QueryService_online_MidTremPlanBHList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ShortTremPlanBHList">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/ShortTremPlanBHList" message="tns:QueryService_online_ShortTremPlanBHList_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/ShortTremPlanBHListResponse" message="tns:QueryService_online_ShortTremPlanBHList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ShortTermPlan">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/ShortTermPlan" message="tns:QueryService_online_ShortTermPlan_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/ShortTermPlanResponse" message="tns:QueryService_online_ShortTermPlan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LongTermPlan">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/LongTermPlan" message="tns:QueryService_online_LongTermPlan_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/LongTermPlanResponse" message="tns:QueryService_online_LongTermPlan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllShortTermPlan">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetAllShortTermPlan" message="tns:QueryService_online_GetAllShortTermPlan_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetAllShortTermPlanResponse" message="tns:QueryService_online_GetAllShortTermPlan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllMiddleTermPlan">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetAllMiddleTermPlan" message="tns:QueryService_online_GetAllMiddleTermPlan_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetAllMiddleTermPlanResponse" message="tns:QueryService_online_GetAllMiddleTermPlan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllLongTermPlan">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetAllLongTermPlan" message="tns:QueryService_online_GetAllLongTermPlan_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetAllLongTermPlanResponse" message="tns:QueryService_online_GetAllLongTermPlan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetShortTasks">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetShortTasks" message="tns:QueryService_online_GetShortTasks_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetShortTasksResponse" message="tns:QueryService_online_GetShortTasks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLongTasks">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetLongTasks" message="tns:QueryService_online_GetLongTasks_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetLongTasksResponse" message="tns:QueryService_online_GetLongTasks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHXMTGCY">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetHXMTGCY" message="tns:QueryService_online_GetHXMTGCY_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetHXMTGCYResponse" message="tns:QueryService_online_GetHXMTGCY_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllHXMTSCJH">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetAllHXMTSCJH" message="tns:QueryService_online_GetAllHXMTSCJH_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetAllHXMTSCJHResponse" message="tns:QueryService_online_GetAllHXMTSCJH_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllHXMTSAAD">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetAllHXMTSAAD" message="tns:QueryService_online_GetAllHXMTSAAD_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetAllHXMTSAADResponse" message="tns:QueryService_online_GetAllHXMTSAAD_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHXMTSCJHHFMS">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetHXMTSCJHHFMS" message="tns:QueryService_online_GetHXMTSCJHHFMS_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetHXMTSCJHHFMSResponse" message="tns:QueryService_online_GetHXMTSCJHHFMS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHXMTSCJHTSQK">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetHXMTSCJHTSQK" message="tns:QueryService_online_GetHXMTSCJHTSQK_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetHXMTSCJHTSQKResponse" message="tns:QueryService_online_GetHXMTSCJHTSQK_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddHXMTRW">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/AddHXMTRW" message="tns:QueryService_online_AddHXMTRW_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/AddHXMTRWResponse" message="tns:QueryService_online_AddHXMTRW_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateHXMTRW">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/UpdateHXMTRW" message="tns:QueryService_online_UpdateHXMTRW_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/UpdateHXMTRWResponse" message="tns:QueryService_online_UpdateHXMTRW_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelHXMTRW">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/DelHXMTRW" message="tns:QueryService_online_DelHXMTRW_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/DelHXMTRWResponse" message="tns:QueryService_online_DelHXMTRW_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHXMTRWByRWH">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetHXMTRWByRWH" message="tns:QueryService_online_GetHXMTRWByRWH_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetHXMTRWByRWHResponse" message="tns:QueryService_online_GetHXMTRWByRWH_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHXMTRWBYTAH">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetHXMTRWBYTAH" message="tns:QueryService_online_GetHXMTRWBYTAH_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetHXMTRWBYTAHResponse" message="tns:QueryService_online_GetHXMTRWBYTAH_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllHXMTRW">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetAllHXMTRW" message="tns:QueryService_online_GetAllHXMTRW_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetAllHXMTRWResponse" message="tns:QueryService_online_GetAllHXMTRW_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGDGCSJ">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetGDGCSJ" message="tns:QueryService_online_GetGDGCSJ_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetGDGCSJResponse" message="tns:QueryService_online_GetGDGCSJ_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddGDGCSJList">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/AddGDGCSJList" message="tns:QueryService_online_AddGDGCSJList_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/AddGDGCSJListResponse" message="tns:QueryService_online_AddGDGCSJList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddGDGCCSJ">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/AddGDGCCSJ" message="tns:QueryService_online_AddGDGCCSJ_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/AddGDGCCSJResponse" message="tns:QueryService_online_AddGDGCCSJ_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGDGSCJ">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/UpdateGDGSCJ" message="tns:QueryService_online_UpdateGDGSCJ_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/UpdateGDGSCJResponse" message="tns:QueryService_online_UpdateGDGSCJ_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelGDGCSJByRWH">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/DelGDGCSJByRWH" message="tns:QueryService_online_DelGDGCSJByRWH_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/DelGDGCSJByRWHResponse" message="tns:QueryService_online_DelGDGCSJByRWH_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelGDGCSJByBH">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/DelGDGCSJByBH" message="tns:QueryService_online_DelGDGCSJByBH_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/DelGDGCSJByBHResponse" message="tns:QueryService_online_DelGDGCSJByBH_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddSkyMark">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/AddSkyMark" message="tns:QueryService_online_AddSkyMark_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/AddSkyMarkResponse" message="tns:QueryService_online_AddSkyMark_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddSkyMarks">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/AddSkyMarks" message="tns:QueryService_online_AddSkyMarks_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/AddSkyMarksResponse" message="tns:QueryService_online_AddSkyMarks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSkyMarks">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetSkyMarks" message="tns:QueryService_online_GetSkyMarks_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetSkyMarksResponse" message="tns:QueryService_online_GetSkyMarks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSkyMarkByName">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetSkyMarkByName" message="tns:QueryService_online_GetSkyMarkByName_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetSkyMarkByNameResponse" message="tns:QueryService_online_GetSkyMarkByName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSkyMarkByCatlog">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetSkyMarkByCatlog" message="tns:QueryService_online_GetSkyMarkByCatlog_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetSkyMarkByCatlogResponse" message="tns:QueryService_online_GetSkyMarkByCatlog_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSkyMark">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/UpdateSkyMark" message="tns:QueryService_online_UpdateSkyMark_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/UpdateSkyMarkResponse" message="tns:QueryService_online_UpdateSkyMark_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelSkyMark">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/DelSkyMark" message="tns:QueryService_online_DelSkyMark_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/DelSkyMarkResponse" message="tns:QueryService_online_DelSkyMark_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelSkyMarks">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/DelSkyMarks" message="tns:QueryService_online_DelSkyMarks_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/DelSkyMarksResponse" message="tns:QueryService_online_DelSkyMarks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGridInfoFromMonFile">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetGridInfoFromMonFile" message="tns:QueryService_online_GetGridInfoFromMonFile_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetGridInfoFromMonFileResponse" message="tns:QueryService_online_GetGridInfoFromMonFile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGridInfoFromDayFile">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetGridInfoFromDayFile" message="tns:QueryService_online_GetGridInfoFromDayFile_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetGridInfoFromDayFileResponse" message="tns:QueryService_online_GetGridInfoFromDayFile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCoverageInfo">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetCoverageInfo" message="tns:QueryService_online_GetCoverageInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetCoverageInfoResponse" message="tns:QueryService_online_GetCoverageInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTargetsInfo">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetTargetsInfo" message="tns:QueryService_online_GetTargetsInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetTargetsInfoResponse" message="tns:QueryService_online_GetTargetsInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTargetCoveragesInfo">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetTargetCoveragesInfo" message="tns:QueryService_online_GetTargetCoveragesInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetTargetCoveragesInfoResponse" message="tns:QueryService_online_GetTargetCoveragesInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveTargetInfo">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/SaveTargetInfo" message="tns:QueryService_online_SaveTargetInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/SaveTargetInfoResponse" message="tns:QueryService_online_SaveTargetInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastestSSGDGS">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetLastestSSGDGS" message="tns:QueryService_online_GetLastestSSGDGS_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetLastestSSGDGSResponse" message="tns:QueryService_online_GetLastestSSGDGS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastestSSGDGSByTime">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetLastestSSGDGSByTime" message="tns:QueryService_online_GetLastestSSGDGSByTime_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetLastestSSGDGSByTimeResponse" message="tns:QueryService_online_GetLastestSSGDGSByTime_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSSGDGS">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetSSGDGS" message="tns:QueryService_online_GetSSGDGS_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetSSGDGSResponse" message="tns:QueryService_online_GetSSGDGS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastestPJGDGS">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetLastestPJGDGS" message="tns:QueryService_online_GetLastestPJGDGS_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetLastestPJGDGSResponse" message="tns:QueryService_online_GetLastestPJGDGS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastestPJGDGSByTime">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetLastestPJGDGSByTime" message="tns:QueryService_online_GetLastestPJGDGSByTime_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetLastestPJGDGSByTimeResponse" message="tns:QueryService_online_GetLastestPJGDGSByTime_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPJGDGS">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetPJGDGS" message="tns:QueryService_online_GetPJGDGS_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetPJGDGSResponse" message="tns:QueryService_online_GetPJGDGS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrbitalTimesInfo">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/GetOrbitalTimesInfo" message="tns:QueryService_online_GetOrbitalTimesInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/GetOrbitalTimesInfoResponse" message="tns:QueryService_online_GetOrbitalTimesInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLocalObitalTimesInfo">
+      <wsdl:input wsaw:Action="http://www.artech.com/QueryService_online/UpdateLocalObitalTimesInfo" message="tns:QueryService_online_UpdateLocalObitalTimesInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/QueryService_online/UpdateLocalObitalTimesInfoResponse" message="tns:QueryService_online_UpdateLocalObitalTimesInfo_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

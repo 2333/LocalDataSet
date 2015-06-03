@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://www.artech.com" elementFormDefault="qualified" targetNamespace="http://www.artech.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:18013/TaskTarget_RManage/metadata?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/CommonService.Model" />
+  <xs:import schemaLocation="http://localhost:18013/TaskTarget_RManage/metadata?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="insertOrUpdateRelation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/CommonService.Model" minOccurs="0" name="relation" nillable="true" type="q1:DZY_GGFW_DAMPETASKTARGET_R" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="insertOrUpdateRelationResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteRelation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/CommonService.Model" minOccurs="0" name="relation" nillable="true" type="q2:DZY_GGFW_DAMPETASKTARGET_R" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteRelationResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="queryTargetName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="taskid" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="queryTargetNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="queryTargetNameResult" nillable="true" type="q3:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

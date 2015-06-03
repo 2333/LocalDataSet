@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/CommonService.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/CommonService.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="DZY_GGFW_DAMPEPLAN">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ENDTIME" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="ISSIMULATED" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PLANID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PLANTYPE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PROPOSEPERSON" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PROPOSETIME" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="REMARK" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="STARTTIME" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_DAMPEPLAN" nillable="true" type="tns:DZY_GGFW_DAMPEPLAN" />
+</xs:schema>

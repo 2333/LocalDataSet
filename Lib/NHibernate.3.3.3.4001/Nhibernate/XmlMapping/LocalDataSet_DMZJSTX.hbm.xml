@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LocalDataSet" namespace="LocalDataSet">
+	<class name="LocalDataSet.Entity.LocalDataSet_DMZJSTX, LocalDataSet" table="LocalDataSet_DMZJSTX">
+		<id name="TXLSH" column="TXLSH" type="int" unsaved-value="0">
+      			<generator class="native" />       			
+      	</id>      		
+		<property name="DMZDH" column="DMZDH" type="string"  />
+		<property name="TXBH" column="TXBH" type="string"  />
+		<property name="ZDJSSL" column="ZDJSSL" type="string"  />
+		<property name="XBDZXGZYJ" column="XBDZXGZYJ" type="string"  />
+		<property name="XBDZDGZYJ" column="XBDZDGZYJ" type="string"  />
+		<property name="RWQHSJ" column="RWQHSJ" type="string"  />
+		<property name="ZT" column="ZT" type="string"  />
+		<property name="JSBD" column="JSBD" type="string"  />
+		<property name="BBSKD" column="BBSKD" type="string"  />
+		<property name="RKSJ" column="RKSJ" type="string"  />
+				
+	</class>
+</hibernate-mapping>

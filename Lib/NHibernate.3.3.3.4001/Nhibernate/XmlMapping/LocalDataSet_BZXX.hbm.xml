@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LocalDataSet" namespace="LocalDataSet">
+	<class name="LocalDataSet.Entity.LocalDataSet_BZXX, LocalDataSet" table="LocalDataSet_BZXX">
+		<id name="MC" column="MC" type="string" unsaved-value="0">
+      			      			
+      	</id>      		
+		<property name="CJ" column="CJ" type="decimal"  />
+		<property name="CW" column="CW" type="decimal"  />
+		<property name="FL" column="FL" type="string"  />
+		<property name="SM" column="SM" type="string"  />
+				
+	</class>
+</hibernate-mapping>

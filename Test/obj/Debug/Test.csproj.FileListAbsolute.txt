@@ -1,0 +1,45 @@
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\Test\bin\Debug\Test.pdb
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\Test\obj\Debug\Test.pdb
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\Test\bin\Debug\Iesi.Collections.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\Test\bin\Debug\LocalDAL.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\Test\bin\Debug\LocalEntity.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\Test\bin\Debug\NHibernate.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\Test\bin\Debug\log4net.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\Test\bin\Debug\LocalDAL.pdb
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\Test\bin\Debug\LocalEntity.pdb
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\Test\bin\Debug\Test.exe
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\Test\obj\Debug\Test.exe
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\Test\bin\Debug\hibernate.cfg.xml
+H:\LocalDataSet\Test\obj\Debug\Test.exe
+H:\LocalDataSet\Test\obj\Debug\Test.pdb
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\Test\obj\Debug\Test.exe
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\Test\obj\Debug\Test.pdb
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\Test\bin\Debug\hibernate.cfg.xml
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\Test\bin\Debug\Test.exe
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\Test\bin\Debug\Test.pdb
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\Test\bin\Debug\Iesi.Collections.dll
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\Test\bin\Debug\LocalDAL.dll
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\Test\bin\Debug\LocalEntity.dll
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\Test\bin\Debug\NHibernate.dll
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\Test\bin\Debug\log4net.dll
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\Test\bin\Debug\LocalDAL.pdb
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\Test\bin\Debug\LocalEntity.pdb
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\obj\Debug\Test.exe
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\obj\Debug\Test.pdb
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\hibernate.cfg.xml
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\Test.exe
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\Test.pdb
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\Iesi.Collections.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\LocalDAL.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\LocalEntity.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\NHibernate.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\log4net.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\LocalDAL.pdb
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\LocalEntity.pdb
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\QueryLib.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\QueryProxy.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\QueryLib.pdb
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\QueryProxy.pdb

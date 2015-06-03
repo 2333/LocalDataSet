@@ -1,0 +1,11 @@
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\QueryProxy\bin\Debug\QueryProxy.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\QueryProxy\bin\Debug\QueryProxy.pdb
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\QueryProxy\obj\Debug\QueryProxy.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\QueryProxy\obj\Debug\QueryProxy.pdb
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\QueryProxy\obj\Debug\QueryProxy.csprojResolveAssemblyReference.cache
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryProxy\bin\Debug\QueryProxy.dll.config
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryProxy\bin\Debug\QueryProxy.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryProxy\bin\Debug\QueryProxy.pdb
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryProxy\obj\Debug\QueryProxy.csprojResolveAssemblyReference.cache
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryProxy\obj\Debug\QueryProxy.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\QueryProxy\obj\Debug\QueryProxy.pdb

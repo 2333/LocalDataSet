@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LocalDataSet" namespace="LocalDataSet">
+	<class name="LocalDataSet.Entity.LocalDataSet_HXMTGDGCSJ, LocalDataSet" table="LocalDataSet_HXMTGDGCSJ">
+		<id name="GCSJXH" column="GCSJXH" type="int" unsaved-value="0">
+      			<generator class="native" />       			
+      	</id>      		
+		<property name="RWH" column="RWH" type="string"  />
+		<property name="KSSJ" column="KSSJ" type="string"  />
+		<property name="JSSJ" column="JSSJ" type="string"  />
+		<property name="RKSJ" column="RKSJ" type="string"  />
+				
+	</class>
+</hibernate-mapping>

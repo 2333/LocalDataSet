@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Common" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Common" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:18009/QueryService_online/metadata?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/System.Windows.Media" />
+  <xs:complexType name="SkyMark">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Catlog" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Dec" type="xs:float" />
+      <xs:element minOccurs="0" name="IsSelected" type="xs:boolean" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/System.Windows.Media" minOccurs="0" name="MarkBrush" nillable="true" type="q1:SolidColorBrush" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ra" type="xs:float" />
+      <xs:element minOccurs="0" name="Remark" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SkyMark" nillable="true" type="tns:SkyMark" />
+  <xs:complexType name="ArrayOfSkyMark">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SkyMark" nillable="true" type="tns:SkyMark" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSkyMark" nillable="true" type="tns:ArrayOfSkyMark" />
+  <xs:complexType name="ArrayOfObservationInfoGrid">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ObservationInfoGrid" nillable="true" type="tns:ObservationInfoGrid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfObservationInfoGrid" nillable="true" type="tns:ArrayOfObservationInfoGrid" />
+  <xs:complexType name="ObservationInfoGrid">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ObservationInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Detail" nillable="true" type="tns:ArrayOfPlanTimePairType" />
+          <xs:element minOccurs="0" name="ID" type="xs:unsignedInt" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ObservationInfoGrid" nillable="true" type="tns:ObservationInfoGrid" />
+  <xs:complexType name="ObservationInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Detail" nillable="true" type="tns:ArrayOfPlanTimePairType" />
+      <xs:element minOccurs="0" name="Times" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalDuration" type="xs:float" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ObservationInfo" nillable="true" type="tns:ObservationInfo" />
+  <xs:complexType name="ArrayOfPlanTimePairType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PlanTimePairType" nillable="true" type="tns:PlanTimePairType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPlanTimePairType" nillable="true" type="tns:ArrayOfPlanTimePairType" />
+  <xs:complexType name="PlanTimePairType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BeginTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Content" nillable="true" type="xs:anyType" />
+      <xs:element minOccurs="0" name="EndTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TypeValue" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PlanTimePairType" nillable="true" type="tns:PlanTimePairType" />
+  <xs:complexType name="CoverageInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Detail" nillable="true" type="tns:ArrayOfPlanTimePairType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CoverageInfo" nillable="true" type="tns:CoverageInfo" />
+</xs:schema>

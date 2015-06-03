@@ -1,0 +1,27 @@
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\LocalDAL\bin\Debug\LocalDAL.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\LocalDAL\bin\Debug\LocalDAL.pdb
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\LocalDAL\bin\Debug\Iesi.Collections.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\LocalDAL\bin\Debug\log4net.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\LocalDAL\bin\Debug\NHibernate.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\LocalDAL\obj\Debug\LocalDAL.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\LocalDAL\obj\Debug\LocalDAL.pdb
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\LocalDAL\bin\Debug\System.Data.SQLite.dll
+C:\Users\ziew\Documents\Visual Studio 2013\Projects\LocalDataSet\LocalDAL\obj\Debug\LocalDAL.csprojResolveAssemblyReference.cache
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\LocalDAL\bin\Debug\LocalDAL.dll
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\LocalDAL\bin\Debug\LocalDAL.pdb
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\LocalDAL\bin\Debug\Iesi.Collections.dll
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\LocalDAL\bin\Debug\log4net.dll
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\LocalDAL\bin\Debug\NHibernate.dll
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\LocalDAL\bin\Debug\System.Data.SQLite.dll
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\LocalDAL\obj\Debug\LocalDAL.csprojResolveAssemblyReference.cache
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\LocalDAL\obj\Debug\LocalDAL.dll
+C:\Users\BrotherKai\Desktop\项目软件\LocalDataSet\LocalDAL\obj\Debug\LocalDAL.pdb
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\LocalDAL\bin\Debug\LocalDAL.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\LocalDAL\bin\Debug\LocalDAL.pdb
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\LocalDAL\bin\Debug\Iesi.Collections.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\LocalDAL\bin\Debug\log4net.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\LocalDAL\bin\Debug\NHibernate.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\LocalDAL\bin\Debug\System.Data.SQLite.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\LocalDAL\obj\Debug\LocalDAL.csprojResolveAssemblyReference.cache
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\LocalDAL\obj\Debug\LocalDAL.dll
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\LocalDAL\obj\Debug\LocalDAL.pdb

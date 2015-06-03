@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0f29990e-17e2-4c25-acf3-f066790a16df" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:18009/QueryService_online/metadata" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="metadata.xsd" MetadataType="Schema" ID="f2894ff0-40a9-43f9-976b-9990ed1ea84f" SourceId="1" SourceUrl="http://localhost:18009/QueryService_online/metadata?xsd=xsd3" />
+    <MetadataFile FileName="metadata1.xsd" MetadataType="Schema" ID="2a0a4f06-f813-499a-97ce-7872c497ac92" SourceId="1" SourceUrl="http://localhost:18009/QueryService_online/metadata?xsd=xsd0" />
+    <MetadataFile FileName="QueryService_online.wsdl" MetadataType="Wsdl" ID="bd4cc3e2-401b-4797-94a8-937999bef5cc" SourceId="1" SourceUrl="http://localhost:18009/QueryService_online/metadata" />
+    <MetadataFile FileName="metadata2.xsd" MetadataType="Schema" ID="79d7d3ff-4c3f-4a04-bbd1-27fcc24c9834" SourceId="1" SourceUrl="http://localhost:18009/QueryService_online/metadata?xsd=xsd4" />
+    <MetadataFile FileName="metadata3.xsd" MetadataType="Schema" ID="1345fce5-6432-4e0d-9600-a02e2e516a76" SourceId="1" SourceUrl="http://localhost:18009/QueryService_online/metadata?xsd=xsd2" />
+    <MetadataFile FileName="metadata.wsdl" MetadataType="Wsdl" ID="bfd8643d-5b35-4b72-b225-a2c2c875a211" SourceId="1" SourceUrl="http://localhost:18009/QueryService_online/metadata?wsdl=wsdl0" />
+    <MetadataFile FileName="metadata4.xsd" MetadataType="Schema" ID="6d30ff7e-31d2-4f96-95eb-00c2f7e504a4" SourceId="1" SourceUrl="http://localhost:18009/QueryService_online/metadata?xsd=xsd1" />
+    <MetadataFile FileName="metadata5.xsd" MetadataType="Schema" ID="1fda812d-9ed2-4d32-926e-1f52690d173e" SourceId="1" SourceUrl="http://localhost:18009/QueryService_online/metadata?xsd=xsd5" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

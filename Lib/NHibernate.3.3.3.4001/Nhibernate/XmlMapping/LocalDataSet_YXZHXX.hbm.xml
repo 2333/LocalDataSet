@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LocalDataSet" namespace="LocalDataSet">
+	<class name="LocalDataSet.Entity.LocalDataSet_YXZHXX, LocalDataSet" table="LocalDataSet_YXZHXX">
+		<id name="YXZHLSH" column="YXZHLSH" type="int" unsaved-value="0">
+      			<generator class="native" />       			
+      	</id>      		
+		<property name="WXDH" column="WXDH" type="string"  />
+		<property name="YXZHDH" column="YXZHDH" type="string"  />
+		<property name="ZHMC" column="ZHMC" type="string"  />
+		<property name="ZT" column="ZT" type="string"  />
+		<property name="AZWZX" column="AZWZX" type="string"  />
+		<property name="AZWZY" column="AZWZY" type="string"  />
+		<property name="AZWZZ" column="AZWZZ" type="string"  />
+		<property name="AZZXX" column="AZZXX" type="string"  />
+		<property name="AZZXY" column="AZZXY" type="string"  />
+		<property name="AZZXZ" column="AZZXZ" type="string"  />
+		<property name="AZXW" column="AZXW" type="string"  />
+		<property name="SCXZ" column="SCXZ" type="string"  />
+		<property name="PXSCJ" column="PXSCJ" type="string"  />
+		<property name="CZSCJ" column="CZSCJ" type="string"  />
+		<property name="RKSJ" column="RKSJ" type="string"  />
+				
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LocalDataSet" namespace="LocalDataSet">
+	<class name="LocalDataSet.Entity.LocalDataSet_HXMTRW, LocalDataSet" table="LocalDataSet_HXMTRW">
+		<id name="RWH" column="RWH" type="string" unsaved-value="0">
+      			      			
+      	</id>      		
+		<property name="TAH" column="TAH" type="string"  />
+		<property name="TAR" column="TAR" type="string"  />
+		<property name="TAZTFL" column="TAZTFL" type="string"  />
+		<property name="GCMS" column="GCMS" type="int"  />
+		<property name="YMC" column="YMC" type="string"  />
+		<property name="CJ" column="CJ" type="decimal"  />
+		<property name="CW" column="CW" type="decimal"  />
+		<property name="GCCS" column="GCCS" type="int"  />
+		<property name="YXGCSJ" column="YXGCSJ" type="decimal"  />
+		<property name="MBNDXX" column="MBNDXX" type="decimal"  />
+		<property name="MBNDSX" column="MBNDSX" type="decimal"  />
+		<property name="GNGZLL" column="GNGZLL" type="decimal"  />
+		<property name="ZNGZLL" column="ZNGZLL" type="decimal"  />
+		<property name="DNGZLL" column="DNGZLL" type="decimal"  />
+		<property name="SMBJ" column="SMBJ" type="decimal"  />
+		<property name="SMJSD" column="SMJSD" type="decimal"  />
+		<property name="SMHJJ" column="SMHJJ" type="decimal"  />
+		<property name="GDGCSJ" column="GDGCSJ" type="int"  />
+		<property name="JCGC" column="JCGC" type="int"  />
+		<property name="ZXSJJG" column="ZXSJJG" type="decimal"  />
+		<property name="ZDSJJG" column="ZDSJJG" type="decimal"  />
+		<property name="XWYLGC" column="XWYLGC" type="int"  />
+		<property name="ZQLY" column="ZQLY" type="decimal"  />
+		<property name="ZQ" column="ZQ" type="decimal"  />
+		<property name="ZXXW" column="ZXXW" type="decimal"  />
+		<property name="ZDXW" column="ZDXW" type="decimal"  />
+		<property name="TADJ" column="TADJ" type="string"  />
+		<property name="ToOGC" column="ToOGC" type="int"  />
+		<property name="ZT" column="ZT" type="int"  />
+		<property name="BZ" column="BZ" type="string"  />
+		<property name="RKSJ" column="RKSJ" type="string"  />
+		<property name="BS" column="BS" type="string"  />
+				
+	</class>
+</hibernate-mapping>
