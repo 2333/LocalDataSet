@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Windows.Media;
+using LocalEntity;
+using LocalEntity.Entities;
+using QueryProxy.OrbitQueryService;
+
 namespace QueryLib
 {
     /// <summary>

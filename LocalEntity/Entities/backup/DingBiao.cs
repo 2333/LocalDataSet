@@ -6,8 +6,8 @@
 //Entity Code Generation Template
 namespace LocalEntity.Entities
 {
-	 	//TASK
-		public class TASK
+	 	//DingBiao
+	public class DingBiao
 	{
 	
       	/// <summary>
@@ -19,15 +19,15 @@ namespace LocalEntity.Entities
             set; 
         }        
 		/// <summary>
-		/// TASKID
+		/// TYPE
         /// </summary>
-        public virtual string TASKID
+        public virtual string TYPE
         {
             get; 
             set; 
         }        
 		/// <summary>
-		/// STARTTIME
+		/// STARTTME
         /// </summary>
         public virtual string STARTTIME
         {
@@ -43,49 +43,9 @@ namespace LocalEntity.Entities
             set; 
         }        
 		/// <summary>
-		/// VIEWTYPE
-        /// </summary>
-        public virtual string VIEWTYPE
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
-		/// LONGTITUDE
-        /// </summary>
-        public virtual string LONGTITUDE
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
-		/// LATITUDE
-        /// </summary>
-        public virtual string LATITUDE
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
-		/// REMARK
-        /// </summary>
-        public virtual string REMARK
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
 		/// PLANID
         /// </summary>
         public virtual string PLANID
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
-		/// FLAG
-        /// </summary>
-        public virtual int? FLAG
         {
             get; 
             set; 

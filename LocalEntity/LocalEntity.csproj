@@ -53,7 +53,6 @@
     <Compile Include="Entities\OrbitTimeInfo.cs" />
     <Compile Include="Entities\PLAN.cs" />
     <Compile Include="Entities\POINTTARGET.cs" />
-    <Compile Include="Entities\Record.cs" />
     <Compile Include="Entities\R_T2T.cs" />
     <Compile Include="Entities\SkyMark.cs" />
     <Compile Include="Entities\TASK.cs" />
@@ -61,23 +60,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Mapping\DingBiao.hbm.xml" />
-    <EmbeddedResource Include="Mapping\PLAN.hbm.xml" />
-    <EmbeddedResource Include="Mapping\POINTTARGET.hbm.xml" />
-    <EmbeddedResource Include="Mapping\R_T2T.hbm.xml" />
-    <EmbeddedResource Include="Mapping\TASK.hbm.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Mapping\User.hbm.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Mapping\AvgOrbElement.hbm.xml" />
-    <Content Include="Mapping\MomOrbElement.hbm.xml">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="Mapping\DingBiao.hbm.xml" />
+    <Content Include="Mapping\MomOrbElement.hbm.xml" />
     <Content Include="Mapping\OrbitTimeInfo.hbm.xml" />
-    <Content Include="Mapping\Record.hbm.xml" />
+    <Content Include="Mapping\PLAN.hbm.xml" />
+    <Content Include="Mapping\POINTTARGET.hbm.xml" />
+    <Content Include="Mapping\R_T2T.hbm.xml" />
     <Content Include="Mapping\SkyMark.hbm.xml" />
+    <Content Include="Mapping\TASK.hbm.xml" />
+    <Content Include="Mapping\User.hbm.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

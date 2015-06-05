@@ -1,20 +1,63 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
+//Nhibernate Code Generation Template 1.0
+//author:MythXin
+//blog:www.cnblogs.com/MythXin
+//Entity Code Generation Template
 namespace LocalEntity.Entities
 {
-    public class OrbitTimeInfo
-    {
-        public virtual int GDQH { get; set; }
-
-        public virtual string WXDH { get; set; }
-
-        public virtual string KSSJ { get; set; }
-
-        public virtual string JSSJ { get; set; }
-
-        public virtual string RKSJ { get; set; }
-    }
+	 	//OrbitTimeInfo
+		public class OrbitTimeInfo
+	{
+	
+      	/// <summary>
+		/// GDQH
+        /// </summary>
+        public virtual int GDQH
+        {
+            get; 
+            set; 
+        }        
+		/// <summary>
+		/// WXDH
+        /// </summary>
+        public virtual string WXDH
+        {
+            get; 
+            set; 
+        }        
+		/// <summary>
+		/// KSSJ
+        /// </summary>
+        public virtual string KSSJ
+        {
+            get; 
+            set; 
+        }        
+		/// <summary>
+		/// JSSJ
+        /// </summary>
+        public virtual string JSSJ
+        {
+            get; 
+            set; 
+        }        
+		/// <summary>
+		/// RKSJ
+        /// </summary>
+        public virtual string RKSJ
+        {
+            get; 
+            set; 
+        }        
+		/// <summary>
+		/// FLAG
+        /// </summary>
+        public virtual int? FLAG
+        {
+            get; 
+            set; 
+        }        
+		   
+	}
 }

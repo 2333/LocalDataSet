@@ -6,8 +6,8 @@
 //Entity Code Generation Template
 namespace LocalEntity.Entities
 {
-	 	//POINTTARGET
-		public class POINTTARGET
+	 	//PLAN
+	public class PLAN
 	{
 	
       	/// <summary>
@@ -19,49 +19,17 @@ namespace LocalEntity.Entities
             set; 
         }        
 		/// <summary>
-		/// TARGETCODE
+		/// STARTTIME
         /// </summary>
-        public virtual string TARGETCODE
+        public virtual string STARTTIME
         {
             get; 
             set; 
         }        
 		/// <summary>
-		/// LONGTITUDE
+		/// ENDTIME
         /// </summary>
-        public virtual string LONGTITUDE
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
-		/// LATITUDE
-        /// </summary>
-        public virtual string LATITUDE
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
-		/// PRIORITY
-        /// </summary>
-        public virtual string PRIORITY
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
-		/// DETECTNUM
-        /// </summary>
-        public virtual string DETECTNUM
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
-		/// PROPOSETIME
-        /// </summary>
-        public virtual string PROPOSETIME
+        public virtual string ENDTIME
         {
             get; 
             set; 
@@ -75,25 +43,41 @@ namespace LocalEntity.Entities
             set; 
         }        
 		/// <summary>
-		/// DETECTTIME
+		/// PROPOSETIME
         /// </summary>
-        public virtual string DETECTTIME
+        public virtual string PROPOSETIME
         {
             get; 
             set; 
         }        
 		/// <summary>
-		/// ALLOWABLEVIRATION
+		/// ISSIMULATED
         /// </summary>
-        public virtual string ALLOWABLEVIRATION
+        public virtual string ISSIMULATED
         {
             get; 
             set; 
         }        
 		/// <summary>
-		/// FLAG
+		/// REMARK
         /// </summary>
-        public virtual int? FLAG
+        public virtual string REMARK
+        {
+            get; 
+            set; 
+        }        
+		/// <summary>
+		/// PLANID
+        /// </summary>
+        public virtual string PLANID
+        {
+            get; 
+            set; 
+        }        
+		/// <summary>
+		/// PLANTYPE
+        /// </summary>
+        public virtual string PLANTYPE
         {
             get; 
             set; 

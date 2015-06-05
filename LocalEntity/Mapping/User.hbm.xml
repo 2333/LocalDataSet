@@ -1,12 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" 
-      assembly="LocalEntity" namespace="LocalEntity.Entities">
-  <class name="User" table="User">
-    <id name="Id" column="Id">
-      <generator class="guid"></generator>
-    </id>
-    <property name="Name" column="Name" not-null="true"/>
-    <property name="Password" column="Password" not-null="true"/>
-    <property name="Email" column="Email" not-null="true"/>
-  </class>
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LocalEntity" namespace="LocalEntity.Entities">
+	<class name="User" table="User">
+		<id name="Id" column="Id" type="Guid" unsaved-value="0">
+      			      			
+      	</id>      		
+		<property name="Name" column="Name" type="string"  />
+		<property name="Password" column="Password" type="string"  />
+		<property name="Email" column="Email" type="string"  />
+		<property name="FLAG" column="FLAG" type="int"  />
+				
+	</class>
 </hibernate-mapping>

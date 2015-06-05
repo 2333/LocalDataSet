@@ -72,7 +72,14 @@ namespace LocalEntity.Entities
             get;
             set;
         }
-
+        /// <summary>
+        /// FLAG
+        /// </summary>
+        public virtual int? FLAG
+        {
+            get;
+            set;
+        }        
 		   
 	}
 }

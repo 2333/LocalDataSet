@@ -2,8 +2,8 @@
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LocalEntity" namespace="LocalEntity.Entities">
 	<class name="POINTTARGET" table="POINTTARGET">
 		<id name="ID" column="ID" type="int" unsaved-value="0">
-      <generator class="increment" />
-    </id>      		
+      			      			
+      	</id>      		
 		<property name="TARGETCODE" column="TARGETCODE" type="string"  />
 		<property name="LONGTITUDE" column="LONGTITUDE" type="string"  />
 		<property name="LATITUDE" column="LATITUDE" type="string"  />
@@ -13,6 +13,7 @@
 		<property name="PROPOSEPERSON" column="PROPOSEPERSON" type="string"  />
 		<property name="DETECTTIME" column="DETECTTIME" type="string"  />
 		<property name="ALLOWABLEVIRATION" column="ALLOWABLEVIRATION" type="string"  />
+		<property name="FLAG" column="FLAG" type="int"  />
 				
 	</class>
 </hibernate-mapping>

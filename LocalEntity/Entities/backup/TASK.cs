@@ -6,8 +6,8 @@
 //Entity Code Generation Template
 namespace LocalEntity.Entities
 {
-	 	//POINTTARGET
-		public class POINTTARGET
+	 	//TASK
+	public class TASK
 	{
 	
       	/// <summary>
@@ -19,9 +19,33 @@ namespace LocalEntity.Entities
             set; 
         }        
 		/// <summary>
-		/// TARGETCODE
+		/// TASKID
         /// </summary>
-        public virtual string TARGETCODE
+        public virtual string TASKID
+        {
+            get; 
+            set; 
+        }        
+		/// <summary>
+		/// STARTTIME
+        /// </summary>
+        public virtual string STARTTIME
+        {
+            get; 
+            set; 
+        }        
+		/// <summary>
+		/// ENDTIME
+        /// </summary>
+        public virtual string ENDTIME
+        {
+            get; 
+            set; 
+        }        
+		/// <summary>
+		/// VIEWTYPE
+        /// </summary>
+        public virtual string VIEWTYPE
         {
             get; 
             set; 
@@ -43,57 +67,17 @@ namespace LocalEntity.Entities
             set; 
         }        
 		/// <summary>
-		/// PRIORITY
+		/// REMARK
         /// </summary>
-        public virtual string PRIORITY
+        public virtual string REMARK
         {
             get; 
             set; 
         }        
 		/// <summary>
-		/// DETECTNUM
+		/// PLANID
         /// </summary>
-        public virtual string DETECTNUM
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
-		/// PROPOSETIME
-        /// </summary>
-        public virtual string PROPOSETIME
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
-		/// PROPOSEPERSON
-        /// </summary>
-        public virtual string PROPOSEPERSON
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
-		/// DETECTTIME
-        /// </summary>
-        public virtual string DETECTTIME
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
-		/// ALLOWABLEVIRATION
-        /// </summary>
-        public virtual string ALLOWABLEVIRATION
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
-		/// FLAG
-        /// </summary>
-        public virtual int? FLAG
+        public virtual string PLANID
         {
             get; 
             set; 

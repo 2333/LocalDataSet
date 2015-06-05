@@ -10,6 +10,7 @@
 		<property name="Ra" column="Ra" type="decimal"  />
 		<property name="Remark" column="Remark" type="string"  />
 		<property name="SaveTime" column="SaveTime" type="DateTime"  />
-    <property name="Brush" column="Brush" type="string"/>	
+    <property name="Brush" column="Brush" type="string"/>
+    <property name="FLAG" column="FLAG" type="int"  />
 	</class>
 </hibernate-mapping>

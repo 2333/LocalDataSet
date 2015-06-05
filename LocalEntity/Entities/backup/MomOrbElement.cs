@@ -4,10 +4,9 @@
 //author:MythXin
 //blog:www.cnblogs.com/MythXin
 //Entity Code Generation Template
-namespace LocalEntity.Entities
-{
-	 	//AvgOrbElement
-		public class AvgOrbElement
+namespace LocalDataSet.Entities{
+	 	//MomOrbElement
+		public class MomOrbElement
 	{
 	
       	/// <summary>
@@ -37,7 +36,7 @@ namespace LocalEntity.Entities
 		/// <summary>
 		/// BCZ
         /// </summary>
-        public virtual decimal? BCZ
+        public virtual decimal BCZ
         {
             get; 
             set; 
@@ -142,14 +141,6 @@ namespace LocalEntity.Entities
 		/// RKSJ
         /// </summary>
         public virtual string RKSJ
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
-		/// FLAG
-        /// </summary>
-        public virtual int? FLAG
         {
             get; 
             set; 

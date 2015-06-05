@@ -7,7 +7,7 @@
 namespace LocalEntity.Entities
 {
 	 	//PLAN
-	public class PLAN
+		public class PLAN
 	{
 	
       	/// <summary>
@@ -78,6 +78,14 @@ namespace LocalEntity.Entities
 		/// PLANTYPE
         /// </summary>
         public virtual string PLANTYPE
+        {
+            get; 
+            set; 
+        }        
+		/// <summary>
+		/// FLAG
+        /// </summary>
+        public virtual int? FLAG
         {
             get; 
             set; 

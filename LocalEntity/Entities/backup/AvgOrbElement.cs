@@ -4,8 +4,7 @@
 //author:MythXin
 //blog:www.cnblogs.com/MythXin
 //Entity Code Generation Template
-namespace LocalEntity.Entities
-{
+namespace LocalDataSet.Entities{
 	 	//AvgOrbElement
 		public class AvgOrbElement
 	{
@@ -142,14 +141,6 @@ namespace LocalEntity.Entities
 		/// RKSJ
         /// </summary>
         public virtual string RKSJ
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
-		/// FLAG
-        /// </summary>
-        public virtual int? FLAG
         {
             get; 
             set; 

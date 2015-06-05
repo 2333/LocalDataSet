@@ -7,7 +7,7 @@
 namespace LocalEntity.Entities
 {
 	 	//POINTTARGET
-		public class POINTTARGET
+	public class POINTTARGET
 	{
 	
       	/// <summary>
@@ -86,14 +86,6 @@ namespace LocalEntity.Entities
 		/// ALLOWABLEVIRATION
         /// </summary>
         public virtual string ALLOWABLEVIRATION
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
-		/// FLAG
-        /// </summary>
-        public virtual int? FLAG
         {
             get; 
             set; 

@@ -7,7 +7,7 @@
 namespace LocalEntity.Entities
 {
 	 	//R_T2T
-		public class R_T2T
+	public class R_T2T
 	{
 	
       	/// <summary>
@@ -30,14 +30,6 @@ namespace LocalEntity.Entities
 		/// TARGETID
         /// </summary>
         public virtual string TARGETID
-        {
-            get; 
-            set; 
-        }        
-		/// <summary>
-		/// FLAG
-        /// </summary>
-        public virtual int? FLAG
         {
             get; 
             set; 

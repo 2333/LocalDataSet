@@ -2,8 +2,8 @@
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LocalEntity" namespace="LocalEntity.Entities">
 	<class name="TASK" table="TASK">
 		<id name="ID" column="ID" type="int" unsaved-value="0">
-      <generator class="increment" />
-    </id>      		
+      			      			
+      	</id>      		
 		<property name="TASKID" column="TASKID" type="string"  />
 		<property name="STARTTIME" column="STARTTIME" type="string"  />
 		<property name="ENDTIME" column="ENDTIME" type="string"  />
@@ -12,6 +12,7 @@
 		<property name="LATITUDE" column="LATITUDE" type="string"  />
 		<property name="REMARK" column="REMARK" type="string"  />
 		<property name="PLANID" column="PLANID" type="string"  />
+		<property name="FLAG" column="FLAG" type="int"  />
 				
 	</class>
 </hibernate-mapping>

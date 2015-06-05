@@ -20,6 +20,7 @@
 		<property name="CKZBX" column="CKZBX" type="string"  />
 		<property name="ZBXYD" column="ZBXYD" type="string"  />
 		<property name="RKSJ" column="RKSJ" type="string"  />
+		<property name="FLAG" column="FLAG" type="int"  />
 				
 	</class>
 </hibernate-mapping>

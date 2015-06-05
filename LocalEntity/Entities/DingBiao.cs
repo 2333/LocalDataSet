@@ -7,7 +7,7 @@
 namespace LocalEntity.Entities
 {
 	 	//DingBiao
-	public class DingBiao
+		public class DingBiao
 	{
 	
       	/// <summary>
@@ -46,6 +46,14 @@ namespace LocalEntity.Entities
 		/// PLANID
         /// </summary>
         public virtual string PLANID
+        {
+            get; 
+            set; 
+        }        
+		/// <summary>
+		/// FLAG
+        /// </summary>
+        public virtual int? FLAG
         {
             get; 
             set; 

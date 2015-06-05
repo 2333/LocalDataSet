@@ -2,10 +2,11 @@
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LocalEntity" namespace="LocalEntity.Entities">
 	<class name="R_T2T" table="R_T2T">
 		<id name="ID" column="ID" type="int" unsaved-value="0">
-      <generator class="increment" />
-    </id>      		
+      			      			
+      	</id>      		
 		<property name="TASKID" column="TASKID" type="string"  />
 		<property name="TARGETID" column="TARGETID" type="string"  />
+		<property name="FLAG" column="FLAG" type="int"  />
 				
 	</class>
 </hibernate-mapping>
