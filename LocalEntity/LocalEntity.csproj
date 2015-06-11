@@ -53,6 +53,7 @@
     <Compile Include="Entities\OrbitTimeInfo.cs" />
     <Compile Include="Entities\PLAN.cs" />
     <Compile Include="Entities\POINTTARGET.cs" />
+    <Compile Include="Entities\Record.cs" />
     <Compile Include="Entities\R_T2T.cs" />
     <Compile Include="Entities\SkyMark.cs" />
     <Compile Include="Entities\TASK.cs" />
@@ -66,6 +67,7 @@
     <Content Include="Mapping\OrbitTimeInfo.hbm.xml" />
     <Content Include="Mapping\PLAN.hbm.xml" />
     <Content Include="Mapping\POINTTARGET.hbm.xml" />
+    <Content Include="Mapping\Record.hbm.xml" />
     <Content Include="Mapping\R_T2T.hbm.xml" />
     <Content Include="Mapping\SkyMark.hbm.xml" />
     <Content Include="Mapping\TASK.hbm.xml" />

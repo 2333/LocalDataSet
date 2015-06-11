@@ -43,3 +43,5 @@ C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\QueryLib
 C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\QueryProxy.dll
 C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\QueryLib.pdb
 C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet\Test\bin\Debug\QueryProxy.pdb
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet-0610\Test\obj\Debug\Test.exe
+C:\Users\BroK\Desktop\飞控程序各版本\LocalDataSet-0610\Test\obj\Debug\Test.pdb

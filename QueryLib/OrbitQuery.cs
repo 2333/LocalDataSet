@@ -6,7 +6,7 @@ using LocalEntity;
 using LocalEntity.Entities;
 using LocalDAL;
 using QueryProxy.OrbitQueryService;
-using LocalDataSet.Entities;
+using LocalEntity.Entities;
 
 namespace QueryLib
 {
@@ -255,7 +255,7 @@ namespace QueryLib
         private OrbitalElemet ConvertOrbitalElement(MomOrbElement gdgs)
         {
             OrbitalElemet item = new OrbitalElemet();
-            item.BCZ = gdgs.BCZ;
+            item.BCZ = (decimal)gdgs.BCZ;
             item.CKZBX =int.Parse(gdgs.CKZBX);
             item.DQZNXS = gdgs.DQZNXS;
             item.GDQH = 0;
