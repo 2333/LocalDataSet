@@ -57,6 +57,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Service References\ParaConfiguration\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\PlanManage\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -185,6 +190,19 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\OrbitQueryService\QueryService_online.wsdl" />
+    <None Include="Service References\ParaConfiguration\metadata.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ParaConfiguration\metadata1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ParaConfiguration\metadata2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ParaConfiguration\ParaConfiguration.wsdl" />
+    <None Include="Service References\ParaConfiguration\QueryProxy.ParaConfiguration.DZY_GGFW_DAMPECSPZ.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\PlanManage\metadata.wsdl" />
     <None Include="Service References\PlanManage\metadata.xsd">
       <SubType>Designer</SubType>
@@ -251,6 +269,7 @@
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\DingBiaoManage\" />
     <WCFMetadataStorage Include="Service References\OrbitQueryService\" />
+    <WCFMetadataStorage Include="Service References\ParaConfiguration\" />
     <WCFMetadataStorage Include="Service References\PlanManage\" />
     <WCFMetadataStorage Include="Service References\PointTargetManage\" />
     <WCFMetadataStorage Include="Service References\T2T_RManage\" />
@@ -324,6 +343,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\OrbitQueryService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ParaConfiguration\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ParaConfiguration\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ParaConfiguration\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

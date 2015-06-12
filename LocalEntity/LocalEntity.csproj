@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Entities\AvgOrbElement.cs" />
     <Compile Include="Entities\DingBiao.cs" />
+    <Compile Include="Entities\DampeParaConfig.cs" />
     <Compile Include="Entities\MomOrbElement.cs" />
     <Compile Include="Entities\OrbitTimeInfo.cs" />
     <Compile Include="Entities\PLAN.cs" />
@@ -63,6 +64,7 @@
   <ItemGroup>
     <Content Include="Mapping\AvgOrbElement.hbm.xml" />
     <Content Include="Mapping\DingBiao.hbm.xml" />
+    <Content Include="Mapping\DampeParaConfig.hbm.xml" />
     <Content Include="Mapping\MomOrbElement.hbm.xml" />
     <Content Include="Mapping\OrbitTimeInfo.hbm.xml" />
     <Content Include="Mapping\PLAN.hbm.xml" />

@@ -6,6 +6,7 @@ using System.Windows.Media;
 using LocalEntity;
 using LocalEntity.Entities;
 using QueryProxy.OrbitQueryService;
+using LocalDAL;
 
 namespace QueryLib
 {
@@ -216,5 +217,50 @@ namespace QueryLib
             mark.Brush = item.MarkBrush.Color.ToString();
             return mark;
         }
+
+        public static DampeParaConfig SParaToLPara(QueryProxy.ParaConfiguration.DZY_GGFW_DAMPECSPZ SParaConf)
+        {
+            DampeParaConfig LParaConf = new DampeParaConfig();
+            try
+            {
+	            LParaConf.CSCD = SParaConf.CSCD;
+	            LParaConf.CSDH = SParaConf.CSDH;
+	            LParaConf.CSMC = SParaConf.CSMC;
+	            LParaConf.CSWZ = SParaConf.CSWZ;
+	            LParaConf.CSZ = SParaConf.CSZ;
+	            LParaConf.RWLB = SParaConf.RWLB;
+	            LParaConf.SSDJ = SParaConf.SSDJ;
+	            LParaConf.SSFZ = SParaConf.SSFZ;
+	            LParaConf.XH = SParaConf.XH;
+            }
+            catch (System.Exception ex)
+            {
+                LogHelper.Error(ex.Message);
+            }
+            return LParaConf;
+        }
+
+        public static QueryProxy.ParaConfiguration.DZY_GGFW_DAMPECSPZ LParaToSPara(DampeParaConfig sPara)
+        {
+            QueryProxy.ParaConfiguration.DZY_GGFW_DAMPECSPZ lPara = new QueryProxy.ParaConfiguration.DZY_GGFW_DAMPECSPZ();
+            try
+            {
+                sPara.CSCD = lPara.CSCD;
+                sPara.CSDH = lPara.CSDH;
+                sPara.CSMC = lPara.CSMC;
+                sPara.CSWZ = lPara.CSWZ;
+                sPara.CSZ = lPara.CSZ;
+                sPara.RWLB = lPara.RWLB;
+                sPara.SSDJ = lPara.SSDJ;
+                sPara.SSFZ = lPara.SSFZ;
+                sPara.XH = lPara.XH;
+            }
+            catch (System.Exception ex)
+            {
+                LogHelper.Error(ex.Message);
+            }
+            return lPara;
+        }
+
     }
 }

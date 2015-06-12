@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/CommonService.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/CommonService.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="DZY_GGFW_DAMPECSPZ">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CSCD" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CSDH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CSMC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CSWZ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CSZ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RWLB" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SSDJ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SSFZ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="XH" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DZY_GGFW_DAMPECSPZ" nillable="true" type="tns:DZY_GGFW_DAMPECSPZ" />
+  <xs:complexType name="ArrayOfDZY_GGFW_DAMPECSPZ">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DZY_GGFW_DAMPECSPZ" nillable="true" type="tns:DZY_GGFW_DAMPECSPZ" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDZY_GGFW_DAMPECSPZ" nillable="true" type="tns:ArrayOfDZY_GGFW_DAMPECSPZ" />
+</xs:schema>
